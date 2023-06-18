@@ -139,13 +139,13 @@ if __name__=='__main__':
     app = ctk.CTk()
     app.resizable(False, False)
     app.geometry("1170x651")  # 1300x600
-    app.title("Space Objects Guesser")
+    app.title("Space Objects Recogniser")
 
     backgroundImage = tk.PhotoImage(file="background.png")
     background = tk.Label(app, image=backgroundImage)
     background.place(x=0, y=0, relwidth=1, relheight=1)
 
-    ctk.CTkLabel(master=app, text="AI Space Objects Guesser", font=("Times New Roman", 30), fg_color="black").place(x=460,
+    ctk.CTkLabel(master=app, text="AI Space Objects Recogniser", font=("Times New Roman", 30), fg_color="black").place(x=430,
                                                                                                             y=80)
 
     ctk.CTkButton(master=app, text="Import", bg_color="black", fg_color="black", font=("Times New Roman", 20),
